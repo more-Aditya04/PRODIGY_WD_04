@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+</head>
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+
+<body>
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img_folder/adi-logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#element">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+
+                </ul>
+
+
+            </nav>
+        </div>
+    </div>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, It's Me <span class="purple">Aditya</span>
+                <div>This is my offical portfolio website </div>
+
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="img_folder/img.png.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Welcome to My offical Portfolio Website , Here u will get all detail info about me.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <div class="info-box">
+        <div class="mail-info">
+            <h5 class="hd5">Email :</h5>
+            <span>moreaditya608@gmail.com</span>
+        </div>
+    </div>
+
+    <div class="btn-box">
+        <button class="btn">Download CV</button>
+    </div>
+
+
+
+
+
+
+    <!---About section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col_1">
+                    <img src="img_folder/About-img.jpg" alt="">
+                </div>
+                <div class="about_col-2">
+                    <h1 class="heading">About Me</h1>
+                    <p class="para">Hi, I'm Aditya More , student at MMIT College currently pursuing my Computer Engineering Degree & also I'm Passionate Frontened Developer.</p>
+
+                    <!-- skills-->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="hide('skills')">My-Skills</p>
+                        <p class="tab-links" onclick="hide('education')">Education</p>
+                        <p class="tab-links" onclick="hide('experience')">Work Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C++</span><br></li>
+                            <li><span>Currently learning DSA in C++</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>Javascript</span><br></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Currently pursing My Engineering at MMIT College </span><br></li>
+                            <li><span>2019 - Completed 10+2 from DY.Patil College</span><br></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Currently doing internship at Prodigy Infotech in position of Web development
+                                </span><br></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!---my projects sections-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="head-p">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    <h2>Project1</h2>
+                    <p class="p-heading">Responsive Gym Landing Page using Html ,CSS & Javascript. This Dynamic landing page is crafted with a focus on promoting fitness. In these Gym landing page detailed info is given regarding about gym trainers , Gym membership , people review etc.
+                        <br>
+                        For source code Click below 
+                    </p>
+                    <a href="https://github.com/more-Aditya04/PRODIGY_WD_01"> Click here </a>
+                </div>
+
+                <!--2nd projects-->
+                <div>
+                    <h2>Project2</h2>
+                    <p class="p-heading">StopWatch Web Application using HTML, CSS & Javascript.These project designed for precision and simplicity in timekeeping.
+                    In this stopwatch web application there are varies function like displaying laps , lap reset , stop timer , reset option are there.
+                    <br>
+                    For source code Click below 
+                    </p>
+                    <a href="https://github.com/more-Aditya04/PRODIGY_WD_02"> Click here </a>
+                </div>
+
+                <!--3rd projects-->
+                <div>
+                    <h2>Project3</h2>
+                    <p class="p-heading">Tic-Tac-Toe Game Application.
+                        Dive into my Tic-Tac-Toe Game Application , a dynamic and engaging project crafted with HTML, CSS & Javascript.This Tic-Tac-toe game application project is Interactive Gameplay , Two player mode functionalities are there.
+                        <br>
+                        For source code Click below 
+                    </p>
+                    <a href="https://github.com/more-Aditya04/PRODIGY_WD_03"> Click here</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--Contact section of the portfolio-->
+
+    <div id="contact">
+        <div class="container-contact">
+            <div class="contact-row">
+                <div class="left-contact">
+                    <h1 class="contact-heading">Contact Me</h1>
+                    <p class="p-contact"> <i class='bx bx-paper-plane'></i> moreaditya608@gmail.com</p>
+                    <p class="p-contact"> <i class='bx bx-phone'></i></i> 8484872975</p>
+
+                    <div class="media-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100054360341683&mibextid=ZbWKwL"><i
+                                class='bx bxl-facebook-circle'></i></a>
+                        <a href="https://www.instagram.com/me_aadii_?utm_source=qr&igsh=MzNlNGNkZWQ4Mg%3D%3D"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://wa.me/qr/633SU5MI3HUSK1"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="https://www.linkedin.com/in/aditya-more-6298662b5/"><i
+                                class='bx bxl-linkedin-square'></i></a>
+
+                    </div>
+
+                </div>
+                <div class="right-contact">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="my_name" placeholder="Your Name">
+                        <input type="email" name="Email" id="my_mail" placeholder="Your mail">
+                        <textarea name="Message" id="" cols="20" rows="6" placeholder="Enter your message"></textarea>
+
+                        <div class="btn-contact">
+                            <button type="submit" class="btn-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer section-->
+
+    <div class="footer">
+        <p>Copyright &copy; Aditya's Portfolio 2024</p>
+    </div>
+
+
+      
+    <!--code for google sheets forms-->
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyKd0eiDrWwWB3oVgTFmWyZklXGqk8htSX6X2U1EvKHNWNT61SfaE5_Myvyj9ZWngrq/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
